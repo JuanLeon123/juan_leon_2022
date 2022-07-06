@@ -62,6 +62,15 @@ table {
     align-items: center;
 }
 
+.navbar-rest img {
+    margin: 0 1rem;
+    
+}
+
+.navbar-rest div h5 {
+    margin: 10px;
+}
+
 .navbar-rest *{
     color: #fff;
 }
@@ -94,10 +103,26 @@ ul li {
     justify-content: center;
     align-items: center;
     padding: 0 85px;
-    margin-top: 53px;
+    margin-top: 50px;
 }
 
 .container1 div p {
     padding-right: 25px;
     text-align: justify;
+}
+
+.productos {
+    display: flex;
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+.productos div {
+    padding: 0 10px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.productos div p {
+    text-align: left;
 }
