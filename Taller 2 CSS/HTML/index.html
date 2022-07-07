@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--CSS-->    
     <link rel="stylesheet" href="../Assets/Css/style.css">
+    <!--FAVICON-->
     <link rel="shortcut icon" href="../Assets/Img/favicon.ico" type="image/x-icon">
     <title>Berry</title>
 </head>
@@ -16,8 +20,8 @@
             <h5>Berry</h5>
         </div>
         <ul>
-            <li>Home</li>
-            <li>Reservas</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
         </ul>
         <img class="size-img-logo" src="../Assets/Img/user.png" alt="">
     </nav>
@@ -32,7 +36,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/tXe56iDop9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
-    <section class="productos">
+    <section class="container-products">
         <div>
             <img src="https://via.placeholder.com/300x200" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fugit, cumque a atque numquam cupiditate nihil id provident blanditiis unde hic esse ratione ut ducimus illo porro ab nam culpa.</p>
@@ -70,21 +74,24 @@
             </tr>
         </table>
     </section>
-    <footer>
+    <footer data-pie-pagina="true">
         <section>
-            <div>
-                <img src="../Assets/Img/restaurant.png" alt="">
-                <span>Nombre restaurante</span>
+            <div class="logo">
+                <img class="size-img-logo" src="../Assets/Img/restaurant.png" alt="">
+                <h5>Berry</h5>
             </div>
             <div class="contaier-reds">
-                <img src="https://via.placeholder.com/32x32" alt="">
-                <img src="https://via.placeholder.com/32x32" alt="">
-                <img src="https://via.placeholder.com/32x32" alt="">
+                <img src="https://via.placeholder.com/64x64" alt="">
+                <img src="https://via.placeholder.com/64x64" alt="">
+                <img src="https://via.placeholder.com/64x64" alt="">
             </div>
         </section>
-        <section>
+        <section class="map-center">
             <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5345669409253!2d-74.05046748590988!3d4.676727243168819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a921a9166bf%3A0x1c29279b4c345958!2sParque%20de%20la%2093!5e0!3m2!1ses!2sco!4v1656727425271!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <button type="button" class="btn-map">Abrir mapa</button>
         </section>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
